@@ -4,7 +4,7 @@ A hands-on **blue-team / SOC analysis** of a real malware infection, reconstruct
 
 > **Dataset:** [Malware-Traffic-Analysis.net — 2026-08-09 "First to Last"](https://www.malware-traffic-analysis.net/2026/08/09/index.html) (public training exercise).
 > **Tools:** Wireshark · VirusTotal · MITRE ATT&CK
-> No malware binaries or capture files are hosted in this repo — only my analysis.
+> No malware binaries or capture files are hosted in this repo only my analysis.
 
 ---
 
@@ -49,7 +49,7 @@ The host name and logged-in user were recovered from Active Directory **Kerberos
 *Kerberos `CNameString` = `desktop-5nlv63k$` (computer account), realm `FIRSTTOLAST.TECH`.*
 
 ![Kerberos revealing the user account rvance](screenshots/3-kerberos-user.png)
-*Kerberos `CNameString` = `rvance` (no trailing `$`) — the logged-in user.*
+*Kerberos `CNameString` = `rvance` (no trailing `$`) the logged-in user.*
 
 ---
 
